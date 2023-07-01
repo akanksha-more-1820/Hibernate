@@ -31,6 +31,7 @@ public class Main {
         add.setX(123.34);
         
         //reading image
+
         FileInputStream fis=new FileInputStream("src/main/java/image.jpg");
         byte[] data=new byte[fis.available()];
         add.setImage(data);
